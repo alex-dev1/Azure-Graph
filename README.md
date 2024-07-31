@@ -1,5 +1,6 @@
+# Defender for cloud
 
-### How many EC2 instances per account + The Total Resources that defender for cloud would calculate for the CSPM ( S3 + EC2 + RDSDB )
+### EC2 instances per account + Total Resources that defender for cloud would calculate for the CSPM ( S3 + EC2 + RDSDB )
 Using data from defender for cloud
 
  ```kql
