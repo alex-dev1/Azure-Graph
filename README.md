@@ -2,7 +2,7 @@
 ### How many EC2 instances per account + The Total Resources that defender for cloud would calculate for the CSPM ( S3 + EC2 + RDSDB )
 Using data from defender for cloud
 
- ```
+ ```kql
  securityresources
     | where type == "microsoft.security/assessments"
     | where name in (pack_array('fead4128-7325-4b82-beda-3fd42de36920','0b168d89-4e52-45c9-bd6a-24f904abcc2e','bfa7d2aa-f362-11eb-9a03-0242ac130003'))
