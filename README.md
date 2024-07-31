@@ -1,6 +1,6 @@
 # Defender for cloud
 
-### EC2 instances per account + Total Resources that defender for cloud would calculate for the CSPM ( S3 + EC2 + RDSDB )
+### AWS EC2 instances per account + Total Resources that defender for cloud would calculate for the CSPM ( S3 + EC2 + RDSDB )
 
 
  ```kql
@@ -28,7 +28,7 @@
 
 
 
-### Display the total amount of RDSDB, EC2 and S3
+### AWS Display the total amount of RDSDB, EC2 and S3
 ```kql
     securityresources
     | where type == "microsoft.security/assessments"
