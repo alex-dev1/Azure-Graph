@@ -26,6 +26,8 @@
 ```
 
 
+
+
 ### Display the total amount of RDSDB, EC2 and S3
 ```kql
     securityresources
