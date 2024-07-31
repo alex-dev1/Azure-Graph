@@ -41,4 +41,4 @@
     | extend securityConnectorId = tolower(tostring(split(resourceId,"/securityentitydata/")[0]))
     | where isnotempty(securityConnectorId)
     | summarize Count=count() by resourceType
-    | order by ['Count'] desc 
+    | order by Count desc 
